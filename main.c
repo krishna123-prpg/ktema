@@ -58,7 +58,7 @@ int main(int argc, char *argv[]) {
       printf("%-25.24s %s\n", info->name, info->description);
     } while (arg_cmd_itr_advance(itr));
     arg_cmd_itr_destroy(itr);
-    printf("Try '%s <command> --help' for more information\n", program_name);
+    // printf("Try '%s help <command>' for more information\n", program_name);
   } else if (version->count > 0) {
     printf("version: %s\n", VERSION);
   } else if (license->count > 0) {

@@ -17,7 +17,6 @@ this library uses true and false from stdbool.h for returns*/
  exp/hello.txt
  */
 #define TEMPLATE_NAME_MAX 30
-bool is_file_exists(char filename[]); // not related to templates, but useful
 bool is_template_present(char name[]);
 bool add_template(char name[], char src[]);
 bool delete_template(char name[]);
